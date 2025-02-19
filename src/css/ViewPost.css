@@ -1,0 +1,97 @@
+
+.home-content{
+  width: 100%;
+  margin: auto;
+}
+
+.post-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.post-item{
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.post-item h3{
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.post-item p{
+  color: rgb(57, 45, 45);
+  text-align: left;
+  padding-left: 5px;
+  flex-grow: 1;
+}
+
+.post-item h6{
+  color: black;
+  padding-left:5px;
+  margin: 0;
+  text-align: left;
+}
+
+#button{
+  display: flex;
+}
+
+#edit{
+  background-color: rgb(92, 92, 193);
+  color: black;
+  padding: 5px 10px;
+  white-space: nowrap;
+  overflow: visible;
+  margin-right: 5px;
+}
+
+#delete{
+  background-color: rgb(178, 59, 59);
+  color: black;
+  padding: 5px 10px;
+  white-space: nowrap;
+  overflow: visible;
+}
+
+.edit-form {
+  width: 80vw;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #443737;
+}
+
+
+.edit-form input,
+.edit-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin:10px 0;
+}
+
+.edit-form button {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 5px;
+  width: 8vw;
+  height: 8vh;
+}
+
+.edit-form button[type="button"] {
+  background-color: #f44336;
+}
+
+#no-data{
+  font-weight: bolder;
+  color: #4CAF50;
+  font-size: larger;
+  text-align: center;
+}
